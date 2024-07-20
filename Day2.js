@@ -14,6 +14,16 @@ let a=1; let b=2; console.log(a+b);
 //Task 5: Write a program to find the remainder when one number is divided by another and log the result to the console.
  a=1;  b=2; console.log(a%b);
 
+/*
+
+ console.log(1 + 2);  -> 3
+ console.log(1 + "2");  -> 12
+ console.log("1" + 2); -> 12
+ console.log(1 + 2 + "2"); -> 32
+ console.log("1" + 2 + 2); -> 122
+
+*/ 
+
 // Activity 2: Assignment Operators
 //Task 6: Use the += operator to add a number to a variable and log the result to the console.
 
@@ -41,11 +51,23 @@ console.log(5<=10);
 //Task 10: Write a program to compare two numbers using == and === and log the result to the console.
 
 console.log(5==5);
-console.log(5===5);
+console.log(5===5); // Compare data types also.
 
+/*
+
+console.log(null > 0);  -> False
+console.log(null == 0); -> False
+console.log(null >= 0); -> True
+
+Note: Comparisions convert null to number i.e 0 that is the reason why (3) is True.
+
+*/
 
 // Activity 4: Logical Operators
 //Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
+
+
+
 //Task 12: Write a program that uses the II operator to combine two conditions and log the result to the console.
 //Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.
 
