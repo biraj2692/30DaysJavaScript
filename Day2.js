@@ -16,12 +16,33 @@ let a=1; let b=2; console.log(a+b);
 
 // Activity 2: Assignment Operators
 //Task 6: Use the += operator to add a number to a variable and log the result to the console.
+
+let add =1;
+add += 2;
+console.log(add);
+
 //Task 7: Use the -= operator to subtract a number from a variable and log the result to the console.
+
+let sub = 3;
+sub -= 2;
+console.log(sub);
 
 // Activity 3: Comparison Operators
 //Task 8: Write a program to compare two numbers using > and < and log the result to the console.
+
+console.log(3>5);
+console.log(3<5);
+
 //Task 9: Write a program to compare two numbers using >= and <= and log the result to the console.
+
+console.log(5>=5);
+console.log(5<=10);
+
 //Task 10: Write a program to compare two numbers using == and === and log the result to the console.
+
+console.log(5==5);
+console.log(5===5);
+
 
 // Activity 4: Logical Operators
 //Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
