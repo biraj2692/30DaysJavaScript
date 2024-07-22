@@ -62,17 +62,33 @@ console.log(null >= 0); -> True
 Note: Comparisions convert null to number i.e 0 that is the reason why (3) is True.
 
 */
-
 // Activity 4: Logical Operators
+let x =5; let y=6;
+
 //Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
 
-
+console.log(x<y && y==6);
+console.log(x<y && x==6);
+console.log(x>y && y==6);
+console.log(x>y && x==6);
 
 //Task 12: Write a program that uses the II operator to combine two conditions and log the result to the console.
+
+console.log(x<y || y==6);
+console.log(x<y || x==6);
+console.log(x>y || y==6);
+console.log(x>y || x==6);
+
 //Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.
+
+console.log(!true);
+console.log(!false);
 
 // Activity 5: Ternary Operator
 //Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
+
+a=-2;
+a>0? console.log("Positive"): console.log("Negative") ;
 
 // Feature Request:
 // 1. Arithmetic Operations Script: Write a script that performs basic arithmetic operations (addition, subtraction, multiplication, division, remainder) on two numbers and logs the results.
